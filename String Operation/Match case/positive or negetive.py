@@ -5,6 +5,6 @@ if __name__ == "__main__":
             print("Number is Zero")
         case Ninput if Ninput > 0:
             print("The number is positive")
-        case n if n < 0:
+        case Ninput if Ninput < 0:
             print("The number is negative")
 

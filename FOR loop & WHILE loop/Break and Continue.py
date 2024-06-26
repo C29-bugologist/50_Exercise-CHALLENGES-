@@ -11,9 +11,9 @@ def print_numbers(range_start, range_end):
         if num % 3 == 0:
             continue
         print(num, end=' ')
-        
-my_list = [1, 2, 3, 4, 5]
-search_list(my_list, 3)
-search_list(my_list, 6)
-print("\n")
-print_numbers(1, 20)
+if __name__ == "__main__":
+    my_list = [1, 2, 3, 4, 5]
+    search_list(my_list, 3)
+    search_list(my_list, 6)
+    print("\n")
+    print_numbers(1, 20)
